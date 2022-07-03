@@ -30,7 +30,7 @@ body{
 .pic{
   display: inline-block;
   padding: 8px;
-  background: linear-gradient(130deg, #ff72f6, #5d1dd2);
+  background: linear-gradient(130deg, #eb2b42, #5d1dd2);
   border-radius: 3px;
 }
 
@@ -80,7 +80,7 @@ p{
 }
 
 .icons-container ul li a:hover{
-  color: #ff72f6;
+  color: #eb2b42;
 }
 
 .contact-btn{
