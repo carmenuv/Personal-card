@@ -30,7 +30,7 @@ body{
 .pic{
   display: inline-block;
   padding: 8px;
-  background: linear-gradient(130deg, rgb(255, 114, 246), #5d1dd2);
+  background: linear-gradient(130deg, #ff72f6, #5d1dd2);
   border-radius: 3px;
 }
 
@@ -57,4 +57,37 @@ h2{
   display: flex;
   justify-content: center;
   margin: 20px 0;
+}
+
+.icons-container ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.icons-container ul li a{
+  color: #5d1dd2;
+  width: 56px;
+  font-size: 25px;
+  transition: .3s;
+}
+
+.icons-container ul li a:hover{
+  color: #ff72f6;
+}
+
+.contact-btn{
+  display: inline-block;
+  padding: 12px 50px;
+  color: #5d1dd2;
+  border: 2px solid #5d1dd2;
+  border-radius: 6px;
+  margin-top: 5px;
+  transition: .3s;
+}
+
+.contact-btn:hover{
+  background: #5d1dd2;
+  color: #f2f2f2;
 }
