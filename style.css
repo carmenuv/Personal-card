@@ -31,4 +31,19 @@ body{
   display: inline-block;
   padding: 8px;
   background: linear-gradient(130deg, rgb(255, 114, 246), #5d1dd2);
+  border-radius: 3px;
+}
+
+.pic img{
+  display: block;
+  width: 250px;
+  height: 250px;
+  border-radius: 3px;
+}
+
+h1{
+  color: #2b2b2b;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 20px 0;
 }
