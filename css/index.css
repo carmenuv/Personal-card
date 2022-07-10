@@ -1,5 +1,6 @@
 .body {
-  background: url(/BG.jpg) center;
+  background-image: url('../BG.jpg');
+  background-position: center;
   background-size: cover;
   font-family: "Lato", Sans-serif, Arial;
   margin: 0;
