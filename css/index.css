@@ -20,7 +20,7 @@
 .card {
   border-radius: .5rem;
   overflow: hidden;
-  max-width: 370px;
+  max-width: 320px;
   box-shadow: 0.1rem 0.1rem 0.4rem 0 #383838;
   background-color: #f2f2f2;
 }
@@ -31,8 +31,8 @@
 
 .card__header-img-container {
   display: flex;
-  width: 280px;
-  height: 280px;
+  width: 236px;
+  height: 236px;
   padding: 0.5rem;
   background: linear-gradient(130deg, #eb2b42, #5d1dd2);
   border-radius: .5rem;
@@ -152,6 +152,10 @@
 
 @media (min-width: 854px) {
   .card {
-    max-width: 400px;
+    max-width: 350px;
+  }
+  .card__header-img-container {
+    width: 256px;
+    height: 256px;
   }
 }
